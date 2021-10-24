@@ -1,0 +1,3 @@
+module associationRule {
+	requires weka;
+}
