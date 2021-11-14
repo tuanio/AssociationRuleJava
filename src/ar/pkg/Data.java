@@ -12,8 +12,8 @@ import weka.filters.unsupervised.attribute.NumericToNominal;
 import weka.filters.unsupervised.attribute.NominalToBinary;
 
 public class Data {
-	protected DataSource source;
-	protected Instances dataset;
+	public DataSource source;
+	public Instances dataset;
 	
 	public void load_data(String filename) throws Exception {
 		this.source = new DataSource(filename);
